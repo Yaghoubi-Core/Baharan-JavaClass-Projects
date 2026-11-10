@@ -1,0 +1,10 @@
+package project1.enums;
+
+public enum TemperatureConversionType {
+    FAHRENHEIT_TO_KELVIN,
+    FAHRENHEIT_TO_CENTIGRADE,
+    KELVIN_TO_CENTIGRADE,
+    KELVIN_TO_FAHRENHEIT,
+    CENTIGRADE_TO_KELVIN,
+    CENTIGRADE_TO_FAHRENHEIT
+}
