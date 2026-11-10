@@ -1,4 +1,4 @@
-package project1.Test;
+package project1;
 
 public class Convention {
 

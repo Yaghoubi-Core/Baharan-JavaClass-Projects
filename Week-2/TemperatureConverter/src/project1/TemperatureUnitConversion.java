@@ -1,6 +1,6 @@
 package project1;
 
-import project1.Test.Convention;
+import project1.Convention;
 import project1.enums.TemperatureConversionType;
 import project1.enums.TemperatureUnit;
 
