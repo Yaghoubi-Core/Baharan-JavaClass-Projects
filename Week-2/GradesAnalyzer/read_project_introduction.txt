@@ -1,0 +1,2 @@
+A program that takes the grades of five students calculates the average
+and print the highest grade lowest grade and the grade closest to the avg
