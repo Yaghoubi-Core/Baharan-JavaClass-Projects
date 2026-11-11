@@ -57,9 +57,23 @@ public class Main {
         //Fifth -Left inverted triangle
 
 
+//        for (int i = 1; i <= 5; i++) {      //1 2 3 4 5 i
+//            for (int a = 1; a<=i-1;a++)  {  //9 7 2 3 4  b
+//                System.out.print(" ");
+//            }
+//            for (int b =1 ; b<= (-2*i+11); b++ ){
+//                System.out.print("*");
+//            }
+//            for (int c=1; c<= i-1; c++){
+//                System.out.print(" ");
+//            }
+//            System.out.println();
+//
+//        }
+
 //------------------------------------------------------------------------
         //Sixth -Center-aligned inverted triangle
-
+        
 
 //------------------------------------------------------------------------
         //Seventh -Hollow triangle
