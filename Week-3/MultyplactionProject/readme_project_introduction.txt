@@ -1,0 +1,1 @@
+A project that get a num from user and made its multiplication
