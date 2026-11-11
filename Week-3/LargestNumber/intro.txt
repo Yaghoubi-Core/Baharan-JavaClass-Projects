@@ -1,0 +1,1 @@
+A program that receives 3 valid numbers separately and uses a nested if-else structure to determine which of these three numbers is the largest. The program must also support the case where the numbers are equal.
