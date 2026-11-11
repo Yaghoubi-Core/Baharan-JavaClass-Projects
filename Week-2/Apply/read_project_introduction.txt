@@ -1,0 +1,1 @@
+A project that takes name and age and score of the user and return applied or not applied
