@@ -1,0 +1,1 @@
+A program that takes two dates from user and calculate and prints the number of days between them
