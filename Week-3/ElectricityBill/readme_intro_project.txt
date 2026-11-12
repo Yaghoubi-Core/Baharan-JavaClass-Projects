@@ -1,0 +1,1 @@
+A program that receives a decimal number representing the monthly electricity consumption in kilowatt-hours (kWh). The cost is defined as follows
