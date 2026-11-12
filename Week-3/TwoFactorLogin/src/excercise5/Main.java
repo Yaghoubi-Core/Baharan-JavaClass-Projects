@@ -44,7 +44,7 @@ public class Main {
 
     public static int toInteger(String str) {
        Scanner scanner = new Scanner(System.in);
-        Pattern pattern = Pattern.compile("\\s*\\d{4}\\s");
+        Pattern pattern = Pattern.compile("^\\s*\\d{4}\\s*$");
         String errorPattern = "کد اس ام اس تایید باید چهار رقم باشد";
         int output = 0;
         String again=str;
@@ -52,12 +52,14 @@ public class Main {
             if (again.matches(pattern.pattern())) {
                 output = Integer.parseInt(str.trim());
                 break;
-                //todo: اینجا بایداس ام اس ارور رو درستش کنی
             } else {
                 System.err.println("--------------------------");
                 System.err.println(errorPattern);
-                System.out.println("کد اس ام اس را مجددا وارد بفرمایید");
+                System.out.println("کد اس ام اس را مجددا وارد بفرمایید \n Exit: 0");
                 again= scanner.nextLine();
+                if (again.trim().equals("0")){
+                    System.exit(0);
+                }
             }
         }
         return output;
