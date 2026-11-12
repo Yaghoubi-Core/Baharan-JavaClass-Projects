@@ -10,9 +10,9 @@ public class Main {
         if (0 <= input && input <= 100) {
             System.out.println("Your Price : " + input * 100 + " Toman");
         } else if (100 < input && input <= 300) {
-            System.out.println("Your Price : " + input * 200 + " Toman");
+            System.out.println("Your Price : " + ((100*100)+ ((input-100F) * 200)) + " Toman");
         } else if (300 < input) {
-            System.out.println("Your Price : " + input * 400 + " Toman");
-        }
+            System.out.println("Your Price : " +((100*100)+(200*200)+ ((input-300F) * 400) )+ " Toman");
+        } //todo: اینجا باید حرکت پلکانی بزنی
     }
 }
