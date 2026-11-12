@@ -1,0 +1,1 @@
+A program that receives a traffic light color string (such as "RED", "YELLOW", "GREEN") and uses a modern Switch statement to return and print the output:
