@@ -6,6 +6,7 @@ import java.util.regex.Pattern;
 public class Main {
     public static void main(String[] args) {
         Scanner reader = new Scanner(System.in);
+
         do {
             System.out.println("Print the first num...");
             String input1 = reader.nextLine();

@@ -51,8 +51,9 @@ public class Main {
                 System.exit(0);
             }
             System.out.println("---------------------------");
-        }while (true);
+        } while (true);
     }
+
     public static float toFloat(String input) {
         Scanner reader = new Scanner(System.in);
         Pattern pattern = Pattern.compile("^\\s*(([0-9]|1[0-9])(\\.[0-9]{1,2})?|20(\\.0{1,2})?)\\s*$");
