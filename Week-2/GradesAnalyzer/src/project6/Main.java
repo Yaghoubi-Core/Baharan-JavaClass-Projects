@@ -31,12 +31,12 @@ public class Main {
                 sum = sum + score;
             }
             float avg = sum / scores.size();
-            float nearToAvg = Math.abs(scores.get(0) - avg);
+            float distanceToAvg = Math.abs(scores.get(0) - avg);
             float nearValue = scores.get(0);
             for (float score : scores) {
                 float near = Math.abs(avg - score);
-                if (near < nearToAvg) {
-                    nearToAvg = near;
+                if (near < distanceToAvg) {
+                    distanceToAvg = near;
                     nearValue = score;
                 }
             }
