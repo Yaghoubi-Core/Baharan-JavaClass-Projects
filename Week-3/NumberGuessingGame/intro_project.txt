@@ -1,0 +1,4 @@
+A program picks a random number between 1 and 100,
+and the user has seven chances to guess it with
+"higher / lower" hints.
+
