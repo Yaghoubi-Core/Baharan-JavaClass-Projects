@@ -1,0 +1,7 @@
+Write a program that checks all numbers between 1 and 100:
+
+If a number is divisible by 3, skip it and do not print it.
+
+Print the remaining numbers.
+
+Exit condition: if along the way it reaches a number that is divisible by both 5 and 9, stop the loop completely and write: "Operation stopped" and print that number
