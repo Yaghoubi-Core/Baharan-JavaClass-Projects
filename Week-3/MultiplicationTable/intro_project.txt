@@ -1,1 +1,1 @@
-A program that takes an integer from the user and prints its multiplication table from 1 to 10 in a clean, aligned format. 
+A program that takes an integer from the user and prints its multiplication table from 1 to 10 in a clean, aligned format.
