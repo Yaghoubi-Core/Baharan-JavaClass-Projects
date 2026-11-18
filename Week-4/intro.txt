@@ -1,0 +1,1 @@
+A set of warm-up and practice exercises on string methods and arrays
